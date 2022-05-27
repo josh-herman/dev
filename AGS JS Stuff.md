@@ -3,7 +3,7 @@
 ```bash
 npm init
 ```
-...with these parameters:
+...with these parameters: (NOTE: )
 ```json
 {
   "name": "<projectName>",
@@ -17,6 +17,7 @@ npm init
   "license": "ISC"
 }
 ```
+> [!INFO] By default, the single entry under "scripts" is called "test". Change this to "start" after this step is completed.
 
 2. Install necessary packages:
 ```bash
@@ -116,7 +117,7 @@ export default routes;
 10. Verify that folder structure matches:
 ![[Pasted image 20220527161101.png]]
 
-11. Start app
+11. Start app:
 ```bash
 npm start
 ```
